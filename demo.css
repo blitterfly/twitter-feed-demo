@@ -1,0 +1,22 @@
+/* demo.css - Havi Sullivan, 9/21/2012 */
+html, body { font-size: 12pt; font-family: Arial, Helvetica, sans-serif; }
+
+#notsupported, #feederror, #template { display: none; }
+#feederror { font-size: 18pt; color: #f00; font-weight: bold; margin: 0 auto; padding: 16px 0; }
+
+#displayarea h1 { font-size: 18pt; font-weight: bold; margin: 0; padding: 16px 32px; background: #ccc;
+	border: 1px solid #444; color: #444; text-align: center; border-radius: 6px 6px 0 0;
+}
+#displayarea ul { margin: 0; padding: 0; list-style: none; }
+#displayarea ul li { padding: 8px 16px; color: #444; border-width: 0 1px 1px 1px;
+	border-style: solid; border-color: #444; 
+}
+#displayarea ul li#tweetcount { color: #00f; text-align: center; font-weight: bold; text-decoration: underline; cursor: pointer; }
+#displayarea ul li#loading { text-align: center; font-weight: bold; }
+#displayarea ul li:last-child { border-radius: 0 0 6px 6px; }
+
+.tweet { min-height: 48px; }
+.tweet img { border: none; border-radius: 6px; margin-right: 16px; float: left; }
+.tweet p { margin: 0; padding: 0; }
+.tweet p.tweet-datetime { font-size: 10pt; color: #999; }
+.tweet p span { font-weight: bold; padding-right: 6px; color: #00f; }

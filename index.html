@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<!-- index.html - Havi Sullivan, 9/21/2012 -->
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<title>Twitter Demo</title>
+	<link rel="stylesheet" href="demo.css">
+	<script src="demo.js"></script>
+</head>
+<body>
+	<noscript>
+		<p>This demo requires JavaScript.</p>
+	</noscript>
+	
+	<div id="notsupported">
+		<h1>Oops!</h1>
+		<p>Your browser doesn't support the features needed for this demo. Please try one of these browsers:</p>
+		<ul>
+			<li>Internet Explorer 9+</li>
+			<li>Google Chrome 20+</li>
+			<li>Mozilla Firefox 12+</li>
+			<li>Apple Safari 5.1+</li>
+			<li>Opera 12+</li>
+		</ul>
+	</div>
+	
+	<p><a href="twitter-feed.zip">Download the source code.</a></p>
+	
+	<div id="displayarea">
+		<h1>Tweets (Searching @MyLittlePony, #MyLittlePony, #brony, #mlp, #mlpfim)</h1>
+		<ul id="tweetlist">
+			<li id="loading">Loading... note poll interval is 15 seconds.</li>
+		</ul>
+	</div>
+	
+	<div id="feederror">
+		Oops! Something broke. Please try again later.
+	</div>
+	
+	<div id="template">
+		<img class="tweet-image" width="48" height="48">
+		<p class="tweet-text"><span class="tweet-screenname"></span></p>
+		<p class="tweet-datetime"></p>
+	</div>
+</body>
+</html>
